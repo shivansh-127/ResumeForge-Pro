@@ -1,69 +1,132 @@
-# ResumeForge Pro
+# 🚀 ResumeForge Pro
 
-ATS-friendly Developer Resume Builder built with React + Vite.
+> ATS-Friendly Developer Resume Builder built with React, Vite, and modern frontend technologies.
 
-## Features
-- 3 professional resume templates (Modern Developer, Minimal ATS, Professional Corporate)
-- Live preview that updates as you type
-- Resume strength score with actionable feedback
-- ATS insights panel
-- PDF export (real, downloadable PDF)
-- LocalStorage persistence — data survives page refresh
-- Dark/light mode
-- Fully responsive
+ResumeForge Pro is a professional resume builder that helps developers create clean, ATS-optimized resumes with real-time preview, customizable templates, PDF export, and automatic data persistence.
 
-## Stack
-- React 18 + Vite 5
-- Plain CSS with CSS variables
-- html2pdf.js for PDF generation
-- No backend, no auth
+🔗 **Live Demo:** https://resume-forge-pro-five.vercel.app/
 
-## Quick Start
+🔗 **GitHub Repository:** https://github.com/shivansh-127/ResumeForge-Pro
 
-```bash
-npm install
-npm run dev        # localhost:5173
-npm run build      # production build → dist/
-npm run preview    # preview production build
-```
+---
 
-## Deploy to Vercel
+## 📸 Screenshots
 
-1. Push this repo to GitHub (public)
-2. Go to vercel.com → New Project → Import your repo
-3. Framework preset: **Vite**
-4. Build command: `npm run build`
-5. Output directory: `dist`
-6. Click Deploy — done ✅
+<img width="1366" height="637" alt="image" src="https://github.com/user-attachments/assets/219cb505-68cd-4b30-9b5c-c740d27d7bab" />
+<img width="1354" height="642" alt="image" src="https://github.com/user-attachments/assets/2841ba17-ae88-4bdb-aae4-c21e440a1f86" />
 
-No environment variables needed.
 
-## Project Structure
 
-```
+---
+
+## ✨ Features
+
+### 📄 Professional Resume Builder
+
+* Create ATS-friendly resumes with a clean and structured format
+* Developer-focused resume sections
+* Modern SaaS-inspired user interface
+
+### ⚡ Live Preview
+
+* Real-time resume preview
+* Instant updates while typing
+* Multiple professional resume layouts
+
+### 🎨 Resume Templates
+
+* Modern Developer
+* Minimal ATS
+* Professional Corporate
+
+### 📊 Resume Strength Analyzer
+
+* Resume completion score
+* Actionable improvement suggestions
+* ATS optimization insights
+
+### 💾 LocalStorage Persistence
+
+* Automatic saving of resume data
+* Data remains available after page refresh
+* No account or login required
+
+### 📥 PDF Export
+
+* One-click PDF generation
+* Professional downloadable resume
+* Ready for internship and job applications
+
+### 🌙 Dark Mode
+
+* Light/Dark theme support
+* Improved accessibility and user experience
+
+### 📱 Responsive Design
+
+* Desktop-friendly
+* Tablet-friendly
+* Mobile-friendly
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React 18
+* Vite 5
+* JavaScript (ES6+)
+
+### Styling
+
+* CSS3
+* CSS Variables
+* Responsive Design
+
+### Libraries
+
+* html2pdf.js
+* React Hooks
+
+### Storage
+
+* Browser LocalStorage
+
+---
+
+## 📂 Project Structure
+
+```text
 resumeforge/
 ├── public/
 │   └── favicon.svg
+│
+├── screenshots/
+│   ├── dashboard.png
+│   └── preview.png
+│
 ├── src/
 │   ├── components/
 │   │   ├── form/
-│   │   │   └── index.jsx        # All form sections
 │   │   ├── preview/
-│   │   │   ├── index.jsx        # Preview panel + template switcher
-│   │   │   └── Templates.jsx    # 3 resume templates
 │   │   ├── ui/
-│   │   │   └── index.jsx        # Reusable primitives (Input, Btn, Card…)
 │   │   ├── Hero.jsx
 │   │   ├── Navbar.jsx
-│   │   └── ScorePanel.jsx       # Score ring + ATS insights
+│   │   └── ScorePanel.jsx
+│   │
 │   ├── hooks/
 │   │   └── useLocalStorage.js
+│   │
 │   ├── styles/
 │   │   └── global.css
+│   │
 │   ├── utils/
-│   │   └── index.js             # Score calc, ATS check, constants
+│   │   └── index.js
+│   │
 │   ├── App.jsx
 │   └── main.jsx
+│
 ├── index.html
 ├── vite.config.js
 ├── vercel.json
@@ -72,5 +135,96 @@ resumeforge/
 
 ---
 
-Built by **Shivansh Saxena** · shivanshsaxena127@gmail.com  
-**Built for Digital Heroes** · https://digitalheroesco.com
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shivansh-127/ResumeForge-Pro.git
+```
+
+Navigate into the project:
+
+```bash
+cd ResumeForge-Pro
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Create production build:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on Vercel.
+
+### Deploy Your Own
+
+1. Fork or clone the repository
+2. Push to GitHub
+3. Open Vercel
+4. Import the repository
+5. Framework Preset → **Vite**
+6. Build Command → `npm run build`
+7. Output Directory → `dist`
+8. Deploy
+
+No environment variables required.
+
+---
+
+## 🎯 Key Highlights
+
+* ATS-Friendly Resume Generation
+* Live Resume Preview
+* PDF Export Functionality
+* Resume Strength Analysis
+* LocalStorage Persistence
+* Dark Mode Support
+* Responsive SaaS UI
+* Production-Ready Deployment
+
+---
+
+## 👨‍💻 Author
+
+**Shivansh Saxena**
+
+📧 [shivanshsaxena127@gmail.com](mailto:shivanshsaxena127@gmail.com)
+
+🔗 GitHub: https://github.com/shivansh-127
+
+🔗 LinkedIn: https://www.linkedin.com/in/shivansh-saxena-5286ab311/
+
+---
+
+## 🏆 Built For
+
+**Digital Heroes Developer Trial Task**
+
+🔗 https://digitalheroesco.com
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
